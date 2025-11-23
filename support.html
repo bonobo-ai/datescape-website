@@ -64,7 +64,10 @@
 
                 <div class="contact-section">
                     <h2>Contact Us</h2>
-                    <div class="contact-form">
+                    <form action="https://formsubmit.co/bonobo.app.ai@gmail.com" method="POST" class="contact-form">
+                        <input type="hidden" name="_subject" value="Datescape Support Request">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://bonobo-ai.github.io/datescape-website/support.html">
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" id="name" name="name" required>
@@ -88,7 +91,7 @@
                             <textarea id="message" name="message" rows="5" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Send Message</button>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
